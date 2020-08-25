@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "microbankings",
+  "info": {
+    "name": "microbanking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "img_name": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "android": {
+      "type": "boolean",
+      "default": false
+    },
+    "ios": {
+      "type": "boolean",
+      "default": false
+    },
+    "early": {
+      "type": "boolean",
+      "default": true
+    },
+    "android_url": {
+      "type": "string"
+    },
+    "ios_url": {
+      "type": "string"
+    },
+    "early_url": {
+      "type": "string"
+    },
+    "price_header": {
+      "type": "string"
+    },
+    "price_subheader": {
+      "type": "string"
+    },
+    "microbanking_details": {
+      "collection": "microbanking-details"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "sub_title_2": {
+      "type": "string"
+    }
+  }
+}

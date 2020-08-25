@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/envoy",
+      "handler": "envoy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/envoy",
+      "handler": "envoy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/envoy",
+      "handler": "envoy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/microbanking-prices",
+      "handler": "microbanking-price.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/microbanking-prices/count",
+      "handler": "microbanking-price.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/microbanking-prices/:id",
+      "handler": "microbanking-price.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/microbanking-prices",
+      "handler": "microbanking-price.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/microbanking-prices/:id",
+      "handler": "microbanking-price.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/microbanking-prices/:id",
+      "handler": "microbanking-price.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

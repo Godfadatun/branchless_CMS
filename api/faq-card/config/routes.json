@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/faq-cards",
+      "handler": "faq-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faq-cards/count",
+      "handler": "faq-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faq-cards/:id",
+      "handler": "faq-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/faq-cards",
+      "handler": "faq-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/faq-cards/:id",
+      "handler": "faq-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/faq-cards/:id",
+      "handler": "faq-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

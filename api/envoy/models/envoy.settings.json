@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "envoys",
+  "info": {
+    "name": "envoy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "sub_title_2": {
+      "type": "string"
+    },
+    "img_name": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "string"
+    },
+    "android": {
+      "type": "boolean"
+    },
+    "android_url": {
+      "type": "string"
+    },
+    "ios": {
+      "type": "boolean",
+      "default": false
+    },
+    "ios_url": {
+      "type": "string"
+    },
+    "early": {
+      "type": "boolean",
+      "default": false
+    },
+    "early_url": {
+      "type": "string"
+    },
+    "envoy_details": {
+      "collection": "envoy-details"
+    }
+  }
+}

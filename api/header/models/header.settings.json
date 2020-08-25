@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "name": "header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "img": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "string"
+    }
+  }
+}

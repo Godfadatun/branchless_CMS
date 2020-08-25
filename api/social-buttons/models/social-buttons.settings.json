@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_buttons",
+  "info": {
+    "name": "social_buttons"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "instagram_url": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "boolean",
+      "default": true
+    },
+    "instagram": {
+      "type": "boolean",
+      "default": true
+    },
+    "twitter": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

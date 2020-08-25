@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/microbanking-details",
+      "handler": "microbanking-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/microbanking-details/count",
+      "handler": "microbanking-details.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/microbanking-details/:id",
+      "handler": "microbanking-details.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/microbanking-details",
+      "handler": "microbanking-details.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/microbanking-details/:id",
+      "handler": "microbanking-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/microbanking-details/:id",
+      "handler": "microbanking-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

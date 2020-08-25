@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "microbanking_prices",
+  "info": {
+    "name": "microbanking_price"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string",
+      "default": "/week"
+    },
+    "details": {
+      "type": "json"
+    }
+  }
+}

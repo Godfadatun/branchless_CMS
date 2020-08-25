@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img_name": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "string"
+    },
+    "android": {
+      "type": "boolean",
+      "default": true
+    },
+    "ios": {
+      "type": "boolean",
+      "default": true
+    },
+    "ios_url": {
+      "type": "string"
+    },
+    "android_url": {
+      "type": "string"
+    }
+  }
+}

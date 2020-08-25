@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_cards",
+  "info": {
+    "name": "faq_card"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "content_list": {
+      "type": "json"
+    }
+  }
+}

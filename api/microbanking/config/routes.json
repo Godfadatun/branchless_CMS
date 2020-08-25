@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/microbanking",
+      "handler": "microbanking.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/microbanking",
+      "handler": "microbanking.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/microbanking",
+      "handler": "microbanking.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

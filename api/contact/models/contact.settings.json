@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "sub_header": {
+      "type": "string"
+    },
+    "header_2": {
+      "type": "string"
+    },
+    "email_caption": {
+      "type": "string"
+    },
+    "email_content": {
+      "type": "string"
+    },
+    "phone_caption": {
+      "type": "string"
+    },
+    "phone_content": {
+      "type": "string"
+    },
+    "hours_caption": {
+      "type": "string"
+    },
+    "hours_content": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "boolean",
+      "default": false
+    },
+    "phone": {
+      "type": "boolean",
+      "default": false
+    },
+    "email": {
+      "type": "boolean",
+      "default": true
+    },
+    "address": {
+      "type": "boolean",
+      "default": false
+    },
+    "address_caption": {
+      "type": "string"
+    },
+    "address_content": {
+      "type": "string"
+    }
+  }
+}
