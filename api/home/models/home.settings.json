@@ -35,7 +35,7 @@
     "details": {
       "type": "json"
     },
-    "home_details": {
+    "page_details": {
       "collection": "home-details"
     }
   }

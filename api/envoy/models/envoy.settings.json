@@ -44,7 +44,7 @@
     "early_url": {
       "type": "string"
     },
-    "envoy_details": {
+    "page_details": {
       "collection": "envoy-details"
     },
     "extra_content": {

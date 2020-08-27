@@ -45,7 +45,7 @@
     "price_subheader": {
       "type": "string"
     },
-    "microbanking_details": {
+    "page_details": {
       "collection": "microbanking-details"
     },
     "sub_title": {
