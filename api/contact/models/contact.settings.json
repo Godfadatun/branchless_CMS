@@ -60,6 +60,12 @@
     },
     "address_content": {
       "type": "string"
+    },
+    "img_name": {
+      "type": "string"
+    },
+    "img_url": {
+      "type": "string"
     }
   }
 }
