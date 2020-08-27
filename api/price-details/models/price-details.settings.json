@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_details",
+  "info": {
+    "name": "price_details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "microbanking_price": {
+      "model": "microbanking-price",
+      "via": "price_details"
+    }
+  }
+}

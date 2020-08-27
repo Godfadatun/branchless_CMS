@@ -21,6 +21,10 @@
     },
     "details": {
       "type": "json"
+    },
+    "price_details": {
+      "via": "microbanking_price",
+      "collection": "price-details"
     }
   }
 }
