@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/envoy-extras",
+      "handler": "envoy-extra.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/envoy-extras/count",
+      "handler": "envoy-extra.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/envoy-extras/:id",
+      "handler": "envoy-extra.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/envoy-extras",
+      "handler": "envoy-extra.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/envoy-extras/:id",
+      "handler": "envoy-extra.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/envoy-extras/:id",
+      "handler": "envoy-extra.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

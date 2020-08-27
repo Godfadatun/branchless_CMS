@@ -46,6 +46,13 @@
     },
     "envoy_details": {
       "collection": "envoy-details"
+    },
+    "extra_content": {
+      "type": "boolean",
+      "default": true
+    },
+    "envoy_extras": {
+      "collection": "envoy-extra"
     }
   }
 }

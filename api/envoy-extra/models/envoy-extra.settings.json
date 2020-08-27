@@ -1,21 +1,18 @@
 {
-  "kind": "singleType",
-  "collectionName": "headers",
+  "kind": "collectionType",
+  "collectionName": "envoy_extras",
   "info": {
-    "name": "header"
+    "name": "envoy_extra"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "img": {
+    "name": {
       "type": "string"
     },
-    "img_url": {
-      "type": "string"
-    },
-    "caption": {
+    "link": {
       "type": "string"
     }
   }

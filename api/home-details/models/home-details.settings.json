@@ -1,0 +1,16 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_details",
+  "info": {
+    "name": "home_details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

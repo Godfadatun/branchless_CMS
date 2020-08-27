@@ -31,6 +31,12 @@
     },
     "android_url": {
       "type": "string"
+    },
+    "details": {
+      "type": "json"
+    },
+    "home_details": {
+      "collection": "home-details"
     }
   }
 }

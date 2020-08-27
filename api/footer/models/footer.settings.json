@@ -55,6 +55,9 @@
     },
     "link_four": {
       "type": "string"
+    },
+    "address": {
+      "type": "text"
     }
   }
 }
